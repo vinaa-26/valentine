@@ -1,0 +1,74 @@
+/* Styling untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container utama */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling pertanyaan */
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling tombol */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#yes-button {
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: bold;
+}
+
+#no-button {
+    background-color: #ccc;
+    color: black;
+}
+
+/* Hover effect */
+#yes-button:hover {
+    background-color: #ff1a1a;
+}
+
+#no-button:hover {
+    background-color: #999;
+}
+
+/* Styling untuk GIF */
+.gif_container img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* Tombol NO berubah jadi YES */
+#no-button.changed {
+    background-color: #ff4d4d; 
+    color: white; 
+    font-weight: bold;
+}
